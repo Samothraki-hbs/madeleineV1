@@ -5,11 +5,12 @@ import FontAwesome5 from '@expo/vector-icons/FontAwesome5';
 import Ionicons from '@expo/vector-icons/Ionicons';
 
 
-const Layout = () => {
+const LayoutAlbum = () => {
     return(
 
             <Stack />
+
     )
 }
 
-export default Layout;
+export default LayoutAlbum;

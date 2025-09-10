@@ -1,13 +1,13 @@
 import { View, Text, Button } from "react-native";
 import auth from "@react-native-firebase/auth";
 
-const ProfilsPage = () => {
+const AlbumPage = () => {
     const user = auth().currentUser;
     return(
         <View>
-            <Button title="Logout" onPress={auth().signOut} />
+             <Text> Ceci est la page d'albums </Text>
         </View>
     )
 }
 
-export default ProfilsPage;
+export default AlbumPage;

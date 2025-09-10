@@ -5,11 +5,13 @@ import FontAwesome5 from '@expo/vector-icons/FontAwesome5';
 import Ionicons from '@expo/vector-icons/Ionicons';
 
 
-const Layout = () => {
+const LayoutProches = () => {
     return(
 
-            <Stack />
-    )
+            <Stack>
+                <Stack.Screen name="/ajouterAmi" options={{ title: "Ajouter un ami (modal)" }} />
+            </Stack>
+    );
 }
 
-export default Layout;
+export default LayoutProches;
